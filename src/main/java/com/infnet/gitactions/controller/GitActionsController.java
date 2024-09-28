@@ -10,4 +10,9 @@ public class GitActionsController {
     public String helloWorld() {
         return "Olá mundo!";
     }
+
+    @GetMapping("/actions")
+    public String firstTest() {
+        return "Primeiro teste do GitActions!";
+    }
 }
