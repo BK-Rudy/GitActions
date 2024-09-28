@@ -16,7 +16,7 @@ public class GitActionsController {
         return "Primeiro teste do GitActions!";
     }
 
-    @GetMapping("/actions")
+    @GetMapping("/actions2")
     public String secondTest() {
         return "Agora vai!";
     }
