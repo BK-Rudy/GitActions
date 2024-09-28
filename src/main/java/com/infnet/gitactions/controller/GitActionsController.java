@@ -15,4 +15,9 @@ public class GitActionsController {
     public String firstTest() {
         return "Primeiro teste do GitActions!";
     }
+
+    @GetMapping("/actions")
+    public String secondTest() {
+        return "Agora vai!";
+    }
 }
